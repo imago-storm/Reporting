@@ -1,0 +1,11 @@
+<editor>
+  <help>/commander/pages/@PLUGIN_NAME@/help?s=Administration&amp;ss=Plugins#CollectReportingData</help>
+  <formElement>
+    <type>entry</type>
+    <property>test1</property>
+  </formElement>
+  <formElement>
+    <type>entry</type>
+    <property>test2</property>
+  </formElement>
+</editor>

@@ -1,0 +1,41 @@
+<!--
+    This form is generated automatically from the parameters pluginspec.
+    Please not not edit this file manually as it will be regenerated.
+-->
+<editor>
+  <help>/commander/pages/@PLUGIN_NAME@/help?s=Administration&amp;ss=Plugins#CollectReportingData</help>
+  <formElement>
+    <type>null</type>
+    <property>config</property>
+    <configuration>1</configuration>
+    <propertyReference>/plugins/@PLUGIN_NAME@/project/ec_plugin_cfgs</propertyReference>
+  </formElement>
+  <formElement>
+    <type>entry</type>
+    <property>test1</property>
+  </formElement>
+  <formElement>
+    <type>entry</type>
+    <property>test2</property>
+  </formElement>
+  <formElement>
+    <type>null</type>
+    <property>previewMode</property>
+  </formElement>
+  <formElement>
+    <type>null</type>
+    <property>transformScript</property>
+  </formElement>
+  <formElement>
+    <type>null</type>
+    <property>debug</property>
+  </formElement>
+  <formElement>
+    <type>null</type>
+    <property>releaseName</property>
+  </formElement>
+  <formElement>
+    <type>null</type>
+    <property>releaseProjectName</property>
+  </formElement>
+</editor>
