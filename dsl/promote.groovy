@@ -16,6 +16,7 @@ def pluginDir = getProperty("/projects/$pluginName/pluginDir").value
 def stepsWithAttachedCredentials = [
 [procedureName: "Sample Procedure", stepName: "Sample Procedure"],
 
+[procedureName: "CollectReportingData", stepName: "CollectReportingData"],
 // === steps with credentials ends ===
 // Please do not remove the line above, it marks the place for the new steps
 // The code above will be updated automatically as you add more procedures into your plugin
@@ -56,6 +57,7 @@ property 'ec_devops_insight', {
 }
 
     
+
 // === features code ends ===
 
     // Place your custom project-level properties in here, like

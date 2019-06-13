@@ -5,7 +5,7 @@
 <editor>
   <help>/commander/pages/@PLUGIN_NAME@/help?s=Administration&amp;ss=Plugins#CollectReportingData</help>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>config</property>
     <configuration>1</configuration>
     <propertyReference>/plugins/@PLUGIN_NAME@/project/ec_plugin_cfgs</propertyReference>
@@ -19,23 +19,23 @@
     <property>test2</property>
   </formElement>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>previewMode</property>
   </formElement>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>transformScript</property>
   </formElement>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>debug</property>
   </formElement>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>releaseName</property>
   </formElement>
   <formElement>
-    <type>null</type>
+    <type>entry</type>
     <property>releaseProjectName</property>
   </formElement>
 </editor>

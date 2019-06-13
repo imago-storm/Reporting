@@ -48,7 +48,7 @@ void validatePluginParams(Map pluginParameters) {
 
 def getCreateActualParameters(Map pluginParameters) {
     return [
-            config               : pluginParameters.configName,
+            config               : pluginParameters.config,
 
             test1 : pluginParameters.test1,
 
@@ -61,7 +61,7 @@ def getCreateActualParameters(Map pluginParameters) {
 
 def getModifyActualParameters(Map pluginParameters) {
     return [
-            config               : pluginParameters.configName,
+            config               : pluginParameters.config,
 
             test1 : pluginParameters.test1,
 
@@ -179,6 +179,8 @@ if (procedureExists(scheduleProjectName, scheduleName)) {
 
 // Plugin form params
 def pluginParameters = args.pluginParameters;
+// throw new RuntimeException(args.toString())
+
 // After this line code will be plugin-specific.
 
 validatePluginParams(args.pluginParameters)

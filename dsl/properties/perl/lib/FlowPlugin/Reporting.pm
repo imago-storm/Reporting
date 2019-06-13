@@ -46,16 +46,15 @@ sub collectReportingData {
     my $params = shift;
     my $stepResult = shift;
 
-    die 'Not implemented yet';
 
-    
+
         my $buildReporting = FlowPDF::ComponentManager->loadComponent('FlowPlugin::Reporting::Reporting', {
             reportObjectTypes     => [ 'build' ],
-            metadataUniqueKey     => 'fill me in',
-            payloadKeys           => [ 'fill me in' ]
+            metadataUniqueKey     => int rand 89898,
+            payloadKeys           => [ 'buildNumber' ]
         }, $self);
         $buildReporting->CollectReportingData();
-    
+
 }
 ## === feature step ends ===
 
