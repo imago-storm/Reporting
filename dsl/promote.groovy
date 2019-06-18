@@ -45,20 +45,12 @@ project pluginName, {
         }
     }
 
-    // This is the optional feature code
-    
-
-    // Feature: devopsInsight
-    
-property 'ec_devops_insight', {
-    property 'build', {
-        property 'source', value: 'Test Reporting'
+    // Plugin metadata for DOIS
+    property 'ec_devops_insight', {
+        property 'build', {
+            property 'source', value: 'Test Reporting'
+        }
     }
-}
-
-    
-
-// === features code ends ===
 
     // Place your custom project-level properties in here, like
     // property 'myPropName', {

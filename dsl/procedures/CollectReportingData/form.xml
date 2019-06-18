@@ -9,33 +9,22 @@
     <property>config</property>
     <configuration>1</configuration>
     <propertyReference>/plugins/@PLUGIN_NAME@/project/ec_plugin_cfgs</propertyReference>
+    <required>1</required>
+    <documentation>Previously defined configuration for the plugin</documentation>
+    <label>Configuration Name:</label>
   </formElement>
   <formElement>
     <type>entry</type>
     <property>test1</property>
+    <required>1</required>
+    <documentation>Sample reporting parameter</documentation>
+    <label>Test 1:</label>
   </formElement>
   <formElement>
     <type>entry</type>
     <property>test2</property>
-  </formElement>
-  <formElement>
-    <type>entry</type>
-    <property>previewMode</property>
-  </formElement>
-  <formElement>
-    <type>entry</type>
-    <property>transformScript</property>
-  </formElement>
-  <formElement>
-    <type>entry</type>
-    <property>debug</property>
-  </formElement>
-  <formElement>
-    <type>entry</type>
-    <property>releaseName</property>
-  </formElement>
-  <formElement>
-    <type>entry</type>
-    <property>releaseProjectName</property>
+    <required>1</required>
+    <documentation>Sample reporting parameter</documentation>
+    <label>Test 2:</label>
   </formElement>
 </editor>

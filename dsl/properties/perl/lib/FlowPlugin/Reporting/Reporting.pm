@@ -65,7 +65,7 @@ sub buildDataset {
         });
 
         my $today = DateTime->now;
-
+        # Just some random data
         $row->{source} = "Test Reporting";
         $row->{pluginName} = '@PLUGIN_NAME@';
         $row->{projectName} = $context->retrieveCurrentProjectName;
